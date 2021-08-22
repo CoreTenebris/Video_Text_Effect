@@ -1,0 +1,53 @@
+@import url('https://fonts.cdnfonts.com/css/batman-forever');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:"BatmanForeverAlternate";
+    font-style: italic;
+    
+}
+
+
+.container{
+    width:100%;
+    height: 100vh;
+    position:relative;
+}
+
+
+.container video{
+    position: absolute;
+   
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    
+    
+}
+
+.text{
+    position: absolute;
+    top:0;
+    left:0;
+    background:#000;
+    width:100%;
+    height:100%;
+    color:#fff;
+    display:flex;
+    text-align: center;
+    align-items:center;
+    justify-content: center;
+    font-size:30px;
+    font-weight:800;
+    mix-blend-mode: multiply;
+}
+
+@media(min-width:998px){
+	.text{
+        font-size:75px;
+       
+    
+    }
+}            
